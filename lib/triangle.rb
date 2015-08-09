@@ -1,8 +1,8 @@
 class Triangle
-  define_method(:initialize) do |length, width| #add height
+  define_method(:initialize) do |length, width, height| 
     @length = length
     @width = width
-    #@height = height
+    @height = height
   end
 
   define_method(:rectangle?) do
